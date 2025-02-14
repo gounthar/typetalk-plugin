@@ -1,6 +1,9 @@
 package org.jenkinsci.plugins.typetalk.webhookaction.executorimpl;
 
-import hudson.model.*;
+import hudson.model.Job;
+import hudson.model.ParameterDefinition;
+import hudson.model.ParametersDefinitionProperty;
+import hudson.model.TopLevelItem;
 import jenkins.model.Jenkins;
 import org.apache.commons.lang.StringUtils;
 import org.jenkinsci.plugins.typetalk.support.Emoji;
